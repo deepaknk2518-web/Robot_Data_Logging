@@ -25,7 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
 		'robot_publisher=robot_monitor_pkg.robot_publisher:main',
-
+		'robot_data=robot_monitor_pkg.robot_data:main',
 
         ],
     },
